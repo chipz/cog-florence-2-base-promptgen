@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from transformers import AutoProcessor, AutoModelForCausalLM 
 
-MODEL_NAME = "microsoft/Florence-2-base"
+MODEL_NAME = "MiaoshouAI/Florence-2-large-PromptGen-v1.5"
 MODEL_CACHE = "checkpoints"
 
 TASKS = {
